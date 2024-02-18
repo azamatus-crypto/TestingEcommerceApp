@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="299061e9-4ae5-44ab-b3e6-c98c3bcd2c8d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AbstractComponents/MostOftenUsedMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AbstractComponents/MostOftenUsedMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/POM/Log_In_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/POM/Log_In_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/POM/SubmitOrderPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/POM/SubmitOrderPageObject.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2cUqNhuhiUvnWo5scR5pugeJ4tQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/Lenovo/TestingEcommerceApp/errorvalidations.xml.executor": "Run",
+    "TestNG.SubmitOrderPageObject.executor": "Run",
+    "TestNG.SubmitOrderPageObject.submitOrder (1).executor": "Run",
+    "TestNG.SubmitOrderPageObject.submitOrder (2).executor": "Run",
+    "TestNG.SubmitOrderPageObject.submitOrder (3).executor": "Run",
+    "TestNG.SubmitOrderPageObject.submitOrder (4).executor": "Run",
+    "TestNG.SubmitOrderPageObject.submitOrder (5).executor": "Run",
+    "TestNG.SubmitOrderPageObject.submitOrder.executor": "Run",
+    "git-widget-placeholder": "azamatdeveloper",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Lenovo/TestingEcommerceApp"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\TestingEcommerceApp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/Lenovo/TestingEcommerceApp/errorvalidations.xml">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="TestingEcommerceApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="TestingEcommerceApp" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Lenovo/TestingEcommerceApp/errorvalidations.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EndToEndTestEcommerceApp" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/errorvalidations.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubmitOrderPageObject.submitOrder (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EndToEndTestEcommerceApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="POM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="POM" />
+      <option name="MAIN_CLASS_NAME" value="POM.SubmitOrderPageObject" />
+      <option name="METHOD_NAME" value="submitOrder" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubmitOrderPageObject.submitOrder (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EndToEndTestEcommerceApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="POM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="POM" />
+      <option name="MAIN_CLASS_NAME" value="POM.SubmitOrderPageObject" />
+      <option name="METHOD_NAME" value="submitOrder" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubmitOrderPageObject.submitOrder (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EndToEndTestEcommerceApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="POM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="POM" />
+      <option name="MAIN_CLASS_NAME" value="POM.SubmitOrderPageObject" />
+      <option name="METHOD_NAME" value="submitOrder" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubmitOrderPageObject.submitOrder" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EndToEndTestEcommerceApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="POM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="POM" />
+      <option name="MAIN_CLASS_NAME" value="POM.SubmitOrderPageObject" />
+      <option name="METHOD_NAME" value="submitOrder" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/Lenovo/TestingEcommerceApp/errorvalidations.xml" />
+        <item itemvalue="TestNG.SubmitOrderPageObject.submitOrder (4)" />
+        <item itemvalue="TestNG.SubmitOrderPageObject.submitOrder (3)" />
+        <item itemvalue="TestNG.SubmitOrderPageObject.submitOrder (2)" />
+        <item itemvalue="TestNG.SubmitOrderPageObject.submitOrder" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="299061e9-4ae5-44ab-b3e6-c98c3bcd2c8d" name="Changes" comment="" />
+      <created>1708176473786</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708176473786</updated>
+    </task>
+    <servers />
+  </component>
+</project>
