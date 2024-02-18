@@ -10,7 +10,7 @@ public class ErrorValidationsTest extends BaseTest {
     private final String passwprde = "1234567@Aza";
 
 
-    @Test(groups = {"error handling"})
+    @Test(groups = {"error handling"},retryAnalyzer = RetryClass.class)
     public void inCorrectLogin() throws InterruptedException {
         logInTest.logIn(userName, passwprde);
         Thread.sleep(1000);

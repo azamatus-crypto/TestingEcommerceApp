@@ -28,7 +28,7 @@ public class CheckoutPageTest extends MostOftenUsedMethods {
     public void chooseCountry(String countryName){
         countryelement.sendKeys("Kyr");
         waitAnawayTwhoSeconds();
-        WebElement kyrgyzstan=countryElements.stream().filter(s->s.getText().equals("Kyrgyzstan")).findFirst().orElse(null);
+        WebElement kyrgyzstan=countryElements.stream().filter(s->s.getText().equals(countryName)).findFirst().orElse(null);
         waitAnawayTwhoSeconds();
         kyrgyzstan.click();
        scrollWindowsDown(driver);
