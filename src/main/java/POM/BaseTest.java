@@ -5,6 +5,12 @@ import com.aventstack.extentreports.reporter.ExtentReporter;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.DataFormatter;
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -17,9 +23,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Properties;
+import java.util.*;
 
 import org.apache.commons.io.FileUtils;
 import org.testng.annotations.DataProvider;
@@ -65,7 +69,7 @@ public class BaseTest {
     }
 
     public ExtentReports getExtentReporter() {
-        String a = System.getProperty("user.dir")+"\\reports\\index.html";
+        String a = System.getProperty("user.dir") + "\\reports\\index.html";
         ExtentSparkReporter sparkReporter = new ExtentSparkReporter(a);
         sparkReporter.config().setDocumentTitle("Eccomerce web testing");
         sparkReporter.config().setReportName("Eccomerce automation");
@@ -85,6 +89,25 @@ public class BaseTest {
         }
         return "C:\\Users\\Lenovo\\IdeaProjects\\EndToEndTest\\src\\main\\java\\Screenshoots\\" + testCaseName + ".png";
 
+    }
+
+    @DataProvider(name = "getDataFromExel")
+    public Object[][] getDataFromExel() throws IOException {
+        DataFormatter dataFormatter = new DataFormatter();
+        FileInputStream f = new FileInputStream("C:\\Users\\Lenovo\\Desktop\\Exel\\Exeldocuments2.xlsx");
+        XSSFWorkbook xssfWorkbook = new XSSFWorkbook(f);
+        XSSFSheet xssfSheet = xssfWorkbook.getSheetAt(2);
+        int countofrow = xssfSheet.getPhysicalNumberOfRows();
+        XSSFRow row = xssfSheet.getRow(0);
+        int columncount = row.getLastCellNum();
+        Object[][] o = new Object[countofrow][columncount];
+        for (int i = 0; i < countofrow; i++) {
+            row = xssfSheet.getRow(i);
+            Iterator<Cell>cellIterator= row.cellIterator();
+            cellIterator.next();
+
+        }
+        return o;
     }
 
 }
